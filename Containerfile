@@ -52,7 +52,7 @@ RUN jlink --strip-debug --compress 2 --no-header-files --no-man-pages --module-p
 # Use ubi-minimal as the base image
 FROM registry.access.redhat.com/ubi9/ubi-minimal:9.4
 
-ARG AUTOTUNE_VERSION
+ARG AUTOTUNE_VERSION=0.1.1
 ARG USER=autotune
 ARG UID=1001
 ARG AUTOTUNE_HOME=/home/$USER
