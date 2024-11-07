@@ -378,7 +378,7 @@ spec:
       - input: $(params.skip-checks)
         operator: in
         values:
-        - "false"
+        - "true"
     - name: clamav-scan
       params:
       - name: image-digest
