@@ -1,4 +1,8 @@
-[submodule "autotune"]
+[submodule "autotune-rm"]
 	path = autotune
 	url = https://github.com/kruize/autotune.git
     branch = remote_monitoring
+[submodule "autotune-mvp"]
+	path = autotune
+	url = https://github.com/kruize/autotune.git
+    branch = mvp_demo
